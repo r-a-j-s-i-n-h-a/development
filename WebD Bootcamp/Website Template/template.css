@@ -1,0 +1,96 @@
+
+    #header{
+        width: 100%;
+        height: 100px;
+        background-color: grey;
+        text-align: center;
+        line-height: 100px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h2 {
+       text-align: center;
+       height: 40px;
+       
+    }
+    #banner{
+        width: 100%;
+        height: 100vh;
+        background-color: lightblue;
+        margin-top: 6px;
+        margin-bottom: 5px;
+        text-align: center;
+        line-height: 100vh;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #sec1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #sec1 .circles{
+        width: 250px;
+        height: 250px;
+        background-color: orange;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        line-height: 250px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+      
+    }
+    #sec2{
+        display: flex;
+    }
+    #sec2 .main{
+        
+        width: 50%;
+        height: 500px;
+        background-color: grey;
+        text-align: center;
+        line-height: 500px;
+        color: white;
+        font-size: 30px;
+    }
+    aside{
+        width: 50%;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    aside .article{
+        text-align: center;
+        line-height: 160px;
+        color: white;
+        size: 30px;
+        width: 100%;
+        height: 163.5px;
+        background-color: orange;
+        margin: 0px 0px 5px 5px
+       
+    }
+    #sec3 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #sec3 .Square{
+        width: 250px;
+        height: 250px;
+        background-color: red;
+        display: inline-block;
+        text-align: center;
+        line-height: 250px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        
+    }
+    #Footer{
+        width: 100%;
+        height: 100px;
+        background-color: blue;
+        text-align: center;
+        line-height: 100px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
