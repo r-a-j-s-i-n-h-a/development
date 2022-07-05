@@ -1,0 +1,91 @@
+*{
+    margin: 0%; padding: 0%;
+}
+
+.ball{
+    height: 50px;
+    width: 50px;
+    border: 2px;
+    border-radius: 50%;
+    transform: rotate(90deg);
+    background: linear-gradient(yellow,49.9%, lightgreen 50.1%,lightgreen 100%);
+    animation: jump 1s linear infinite;
+    position: relative;
+   }
+   .load{
+    font-size: 30px;
+    margin-top: 5px;
+    font-family: 'Finlandica', sans-serif;
+    animation: trans 1s linear infinite;
+   }
+   
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+hr{
+ width:3%;
+ border: 2px d;
+ background-color:rgba(128, 128, 128, 0.307);
+ border-radius: 10px;
+ animation: shadow 1s linear infinite;
+ 
+}
+
+@keyframes jump {
+    0%{
+        bottom: 2px;;
+        transform: rotate(360deg);
+    
+    }
+    
+    50%{
+        bottom: 80px;
+        
+    }
+    100%{
+       
+        bottom: 2px;
+        transform: rotate(0deg);
+    
+    }
+}
+@keyframes trans {
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0.2;
+    }
+    40%{
+        opacity: 0.4;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    60%{
+        opacity: 0.6;
+    }
+    70%{
+        opacity: 0.7;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    90%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes shadow {
+    0%{
+        width: 0%;
+    }
+
+}
