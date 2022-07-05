@@ -27,11 +27,12 @@
     align-items: center;
     flex-direction: column;
 }
-hr{
+.shadow{
  width:3%;
- border: 2px d;
+ height 0.5%
+ border: 2px;
  background-color:rgba(128, 128, 128, 0.307);
- border-radius: 10px;
+ border-radius: 50%;
  animation: shadow 1s linear infinite;
  
 }
