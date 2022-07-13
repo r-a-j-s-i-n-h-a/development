@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stu-form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body style="background-color:lightblue;">
+ 
+        
+         <div class="header">Student Regestration</div>
+         <div class="main">
+            <p>Enter details here</p>
+            <hr>
+            <form id="form" action="">
+                Name: <input type="text" id="namebox">
+                <br>
+                <br>
+
+                Branch: <input type="text" id="branchbox">
+                <br>
+                <br>
+                Date of birth: <input type="date" id="datebox">
+                <br><br>
+                Email: <input type="email" id="mailbox">
+                <br><br>
+                <Legend >Gender:</Legend>
+                <span>
+                Male<input type="radio" name="gen"id="mbox" value="male">
+                &nbsp;Female<input type="radio" name ="gen"id="fbox" value="female">
+                </span>
+                
+
+                <br><br>
+                Section: <select name="section" id="sectionbox">
+                    <option value="">Select your section</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                </select>
+                <br><br>
+                
+                    <div class="btns"><button class="btn">UPDATE</button></div>
+                    
+
+            </form>
+            <script type="module" src="./firebaseconfig.js"> </script>
+            <script type="module" src="./script.js"></script>
+            
+         </div>
+
+       
+
+    
+    
+</body>
+</html>
